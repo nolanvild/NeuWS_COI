@@ -18,7 +18,7 @@ from networks import *
 from utils import *
 from dataset import *
 
-DEVICE = 'cuda'
+DEVICE = 'cpu'
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
